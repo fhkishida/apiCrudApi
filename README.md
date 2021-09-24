@@ -7,6 +7,7 @@ Montar uma api RESTful com laravel para alimentar uma SPA com as seguintes funç
 Obs: As tabelas de relacionamento estão a cargo do desenvolvedor.
 Cada cidade possui somente um grupo
 Itens extras:
+
 • Montar MER com todos os relacionamentos
 Como banco de dados pode ser utilizado ou MySql ou PostgreSQL.
 Importante
