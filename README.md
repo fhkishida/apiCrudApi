@@ -1,2 +1,20 @@
-# apiCrudApi
-avaliação para m2center.
+Desafio M2
+Montar uma api RESTful com laravel para alimentar uma SPA com as seguintes funções:
+1. Cadastrar/Editar/Listar/Excluir cidades
+2. Cadastrar/Editar/Listar/Excluir grupo de cidades
+3. Cadastrar/Editar/Listar/Excluir Campanhas para o grupo de cidades onde cada grupo possui somente uma campanha ativa
+4. Cadastrar/Editar/Listar/Excluir desconto para os produtos da campanha 
+5. Cadastrar/Editar/Listar/Excluir produtos
+
+Obs: As tabelas de relacionamento estão a cargo do desenvolvedor.
+Cada cidade possui somente um grupo
+Itens extras:
+
+• Montar MER com todos os relacionamentos
+Como banco de dados pode ser utilizado ou MySql ou PostgreSQL.
+Importante
+
+O projeto deve ser inserido em algum sistema de versionamento, git, bitbucket, etc. 
+O banco de dados pode ser somente as migrations com seus respectivos seeders.
+No final, enviar as rotas de consulta da api junto com seus respectivos parâmetros
+
