@@ -16,9 +16,11 @@ class CreateProductValues extends Migration
         Schema::create('product_values', function (Blueprint $table) {
             $table->id();
             $table->foreignId("product_id");
-            $table->foreignId("city_group_campaign_id");
+            $table->foreignId("campaign_id");
             $table->double("discount",8,2);
             $table->timestamps();
+            $table->foreign("product_id")->references('id')->on("products");
+            $table->foreign("campaign_id")->references('id')->on("campaigns");
         });
     }
 

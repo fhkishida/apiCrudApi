@@ -16,9 +16,9 @@ class CreateCities extends Migration
         Schema::create('cities', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->foreignId('city_groups_id');
+            $table->foreignId('group_id');
             $table->timestamps();
-            $table->foreign('city_groups_id')->references('id')->on('city_groups');
+            $table->foreign('group_id')->references('id')->on('groups');
         });
     }
 
