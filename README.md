@@ -2,11 +2,11 @@ Regras para rodar a aplicação:
 1. Composer Install;
 2. cp .env.example .env
 3. php artisan jwt:secret para gerar token no .env;
-4. rodar o servidor com php artisan serve
-5. acessar a rota de login para receber o token de autenticação
-6. adicionar um header authorization com o valor Bearer {{token recebido no passo 5}}
-6. rodar php artisan db:seed para gerar as seeds no banco
-7. be happy!
+4. rodar php artisan db:seed para gerar as seeds no banco
+5. rodar o servidor com php artisan serve
+6. acessar a rota de login para receber o token de autenticação
+7. adicionar um header authorization com o valor Bearer {{token recebido no passo 5}}
+8. be happy!
 
 Rotas:
 ----------------------------------------------------------------------
